@@ -16,7 +16,6 @@ class addTask extends StatefulWidget {
 }
 
 class _addTaskState extends State<addTask> {
-  //
   var subject = TextEditingController();
   var description = TextEditingController();
   String statusValueChoose = 'Open';
