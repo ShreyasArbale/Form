@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
               itemCount: taskList.length,
               itemBuilder: (context, index) {
                 return Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.only(left: 16, right: 16, top: 8, bottom: 8),
                   child: Card(
                     color: Color(0xFFE1F5FE),
                     child: Column(
